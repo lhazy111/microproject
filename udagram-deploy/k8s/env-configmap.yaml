@@ -2,11 +2,11 @@ apiVersion: v1
 kind: ConfigMap
 data:
   AWS_BUCKET: udagram-439819802765-dev
-  AWS_PROFILE: lukasz-hazy
+  AWS_PROFILE: Administrator
   AWS_REGION: eu-west-2
   JWT_SECRET: lou123
   POSTGRES_DB: postgres
   POSTGRES_HOST: cdr.c5mz6ktvpble.eu-west-2.rds.amazonaws.com
-  URL: http://localhost:8100  
+  URL: http://ac801161598a5410fabc3dc56f37cf5a-491731299.eu-west-2.elb.amazonaws.com:8100 
 metadata:
   name: env-config

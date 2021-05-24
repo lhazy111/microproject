@@ -15,7 +15,7 @@ spec:
         service: reverseproxy
     spec:
       containers:
-      - image: lhazy111/reverseproxy
+      - image: lhazy111/reverseproxy:latest
         name: reverseproxy
         imagePullPolicy: Always          
         resources:
